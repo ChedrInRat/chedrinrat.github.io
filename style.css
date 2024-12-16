@@ -15,10 +15,10 @@ a {
 
 .intro {
   padding: 2rem;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
   text-align: center;
+  background-color: #f0f0f0;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .intro h1 {
@@ -28,9 +28,9 @@ a {
 }
 
 .intro i {
-  color: black;
   font-size: 3rem;
   margin: 1rem;
+  color: black;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,7 +41,7 @@ a {
 
   .intro {
     background-color: rgba(80, 80, 80, 0.5);
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(255, 255, 255, 0.1);
   }
 
   .intro i {
