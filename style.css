@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: white;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 5rem;
+  font-family: "Delius Swash Caps", cursive;
+  font-style: normal;
+}
+
+.intro i {
+  color: black;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .intro {
+    background-color: rgba(80, 80, 80, 0.5);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  }
+
+  .intro i {
+    color: white;
+  }
+}
