@@ -17,6 +17,7 @@ a {
   text-decoration: none;
 }
 
+
 .intro {
   padding: 1rem;
   border-radius: 1rem;
@@ -35,6 +36,11 @@ a {
   font-size: 3rem;
   margin: 1rem;
   color: black;
+}
+
+.intro i:hover {
+  font-size: 3.5rem;
+  color: blue;
 }
 
 @media (prefers-color-scheme: dark) {
